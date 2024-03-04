@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    height: 60px;
+    background-color: #052c65;
+}
+.nav_container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.card_container{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.fondo{
+    background-color: #052c65;
+}
+.form_login{
+    width: 80%;
+    margin: 80px auto;
+    width: 350px;
+    padding: 20px;
+    background-color: rgb(128, 128, 128, .2);
+    border-radius: 20px;
+}
+.login_title{
+    text-align: center;
+    color: #fff;
+}
+.login_user{
+    font-size: 8rem;
+    text-align: center;
+    color: #fff;
+}
+.description{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.description-action{
+    display: flex;
+    gap: 20px;
+}
+
+.section{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between
+}
+.container{
+    width: 90%;
+}
